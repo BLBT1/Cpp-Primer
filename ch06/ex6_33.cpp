@@ -9,6 +9,8 @@ void print(Iter first, Iter last)
     {
         cout << *first << " ";
         print(++first, last);
+    }else{
+        cout << "\n";
     }
 }
 
